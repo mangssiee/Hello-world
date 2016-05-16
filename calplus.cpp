@@ -12,7 +12,10 @@ int main()
     {
         case '+':
             cout << a+b << endl;
-            break;
+        break;
+	case '-':
+	    cout << a-b << endl;
+	break;
     }
     return 0;
 }
