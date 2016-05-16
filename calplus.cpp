@@ -19,6 +19,10 @@ int main()
 	case '*':
 	    cout << a*b << endl;
 	break;
+	case '/':
+	if(b!=0)
+	    cout << a/b << endl;
+ 	break;  
     }
     return 0;
 }
